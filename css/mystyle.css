@@ -3,7 +3,7 @@ background-color:#990000;
 }
 
 #container {
-margin auto 0;
+margin: auto 0;
 width: 1000px;
 height: 1200px;
 margin-left: 100px;
@@ -102,7 +102,7 @@ section {
 position: absolute;
 left: 500px;
 text-align: center;
-z-index: 2;
+z-index: -1;
 }
 
 footer {
@@ -197,9 +197,6 @@ padding: 10px;
 margin-bottom: 50px;
 }
 
-#googleMap {
-float: right;
-}
 
 #gradientcolor{
 background-image: linear-gradient(
@@ -223,5 +220,5 @@ font-size: large;
 #fixedposition{
 position: fixed;
 margin-left: 15px;
-top: 50;
+top: 300px;
 }
